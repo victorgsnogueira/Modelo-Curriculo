@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.header{
+    height: 100px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background:url('Imagens/a.png') center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    position: relative;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.dados-pessoais a{
+    color: rgb(160, 160, 160);
+}
+
+a:hover{
+color: rgb(104, 88, 194)
+}
+
+nav{
+ display: flex;
+ justify-content: space-around;
+ width: 50%;
+}
+
+h1{
+    font-size: 35px;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin: 15px;
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+footer{
+    
+    width: 100%;
+}
+footer p{
+    text-align: center;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+section{
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 15px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.dados{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+aside{
+text-align: center;
+}
